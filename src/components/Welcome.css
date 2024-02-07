@@ -9,4 +9,13 @@
     min-height: 11vh;
 }
 
-
+@media (max-width: 600px) {
+    .welcome-container{
+        font-size: 2vh;
+        margin: 0 auto;
+        margin-top: 40vh;
+        min-height: 11vh;
+        letter-spacing: 0;
+    }
+    
+}

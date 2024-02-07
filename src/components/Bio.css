@@ -20,10 +20,24 @@
     opacity: 0;
 }
 
+@-webkit-keyframes fade-in {
+    to {opacity: 1;}
+}
 @keyframes fade-in {
-    to {scale: 1; opacity: 1;}
+    to {opacity: 1;}
 }
 
 .bio-container:hover {
     transform: scale(1.03)
+}
+
+@media (max-width: 600px) {
+    .bio-container{
+        margin: 0 auto;
+        margin-top: 35vh;
+        margin-inline: 5vw;
+        animation-range-start: 35vh;
+        animation-range-end: 80vh;
+    }
+    
 }

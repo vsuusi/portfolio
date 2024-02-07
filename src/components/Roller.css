@@ -1,8 +1,7 @@
 .roller-container {
     margin-top: 25vh;
     margin-bottom: 12vh;
-    margin-left: 35vw;
-    margin-right: 35vw;
+    margin-inline: 32vw;
     padding: 10px 0px;
     display: flex;
     justify-content: center;
@@ -35,6 +34,16 @@
     }
 }
 
+@media (max-width: 600px) {
+    .roller-container {
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+        margin-inline: 13vw;
+        background-color: var(--main-black);
+    }
+    
+}
+
 a:link, a:visited {
     color: white;
     background-color: transparent;
@@ -48,3 +57,5 @@ a:hover {
   color: aquamarine;
   cursor: pointer;
 }
+
+
