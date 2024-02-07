@@ -7,8 +7,7 @@ const Bio = () => {
                  a trainee position to apply and expand my programming skills. 
             <br/>Eager to learn through hands-on experiences,
             <br/>I am ambitious about developing my expertise in cutting-edge technologies.
-            <br/>Currently most interesting to me are front end developing, UI's, UX and AI,
-            <br/>but I am open to other career paths too! 
+            <br/>Currently most interesting to me are front end developing, UI's, UX and AI, but I am open to other career paths too! 
             <br/>You can find my resume below next to LinkedIn and GitHub.</p>
         </div>
     );
