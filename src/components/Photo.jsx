@@ -15,7 +15,6 @@ const Photo = () => {
                 src={thatsme}
                 alt="My lolo xD">
             </img>
-            
         </div>
     );
 };
