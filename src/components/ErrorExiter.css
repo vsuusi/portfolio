@@ -1,0 +1,24 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error-text {
+    font-size: 7vh;
+    color: #f1f1f1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.error-button {
+    font-size: 3vh;
+    background-color: black;
+}
+
+.error-button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
