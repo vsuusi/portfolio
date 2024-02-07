@@ -1,12 +1,11 @@
 .roller-container {
-    margin-top: 10vh;
+    margin-top: 20vh;
     margin-bottom: 10vh;
     margin-left: 23vw;
     margin-right: 25vw;
     padding: 10px 0px;
     display: flex;
     justify-content: center;
-    gap: 5vw;
     font-size: 30px;
     overflow: hidden;
     -webkit-mask-image: linear-gradient(90deg, transparent, #050505 20%, #000000 80%, transparent);
@@ -14,7 +13,7 @@
 }
 
 .roller-items {
-    animation: scroll 30s linear infinite;
+    animation: scroll 40s linear infinite;
     display: flex;
     gap: 5vw;
 }
@@ -40,4 +39,5 @@ a:hover {
   transform: scale(1.1);
   transition: 0.5s;
   color: aquamarine;
+  cursor: pointer;
 }
