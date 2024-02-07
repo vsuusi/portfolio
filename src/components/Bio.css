@@ -1,0 +1,14 @@
+.bio-container{
+    color:aliceblue;
+    font-size: 2.5vh;
+
+    background-color: var(--main-black-opacity70);
+    /*WHITE SHADOW*/
+
+    border-radius: 10px;
+    margin-top: 7vw;
+    margin-left: 50vw;
+    margin-right: 8vw;
+    text-align: start;
+
+}
