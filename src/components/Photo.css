@@ -3,6 +3,7 @@
     margin-inline: 10vw;
     margin-top: 40vh;
     height: 40vh;
+    width: 80vw;
     display: flex;
     justify-content: center;
     animation: fade-in-photo linear forwards;
