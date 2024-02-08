@@ -28,6 +28,7 @@
 @keyframes animate-bio {
     to {
         transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
         filter: blur(0);
     }
@@ -39,6 +40,7 @@
         margin: 0 auto;
         margin-top: 50vh;
         margin-inline: 5vw;
+        transform: translateY(-8vw);
     }
     
 }
