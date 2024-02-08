@@ -5,50 +5,40 @@
     background-color: var(--main-black-opacity70);
     padding: 1px 25px;
     border-radius: 10px;
-    margin-top: 50vh;
+    margin-top: 70vh;
     margin-left: 50vw;
     margin-right: 8vw;
-    text-align: start;
+    text-align: center;
     transition: 0.8s ease-out;
     box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(14, 13, 13, 0.3) 0px 8px 16px -8px;
-
-    animation: fade-in ease-out forwards;
-    animation-timeline: view();
-    animation-range-start: 35vh ;
-    animation-range-end: 70vh;
     opacity: 0;
-    transform: translateX(-4vw);
+    transform: translateX(-8vw);
+    filter: blur(8px);
 }
 .bio-2{
     margin-right: 50vw;
     margin-left: 8vw;
-    transform: translateX(4vw);
-    text-align: end;
+    transform: translateX(8vw);
 }
 
+.animate-bio {
+    animation: animate-bio 0.7s ease-out forwards;
+}
 
-@-webkit-keyframes fade-in {
+@keyframes animate-bio {
     to {
+        transform: translateX(0);
         opacity: 1;
-        transform: translateX(0vw);
+        filter: blur(0);
     }
-    
 }
-@keyframes fade-in {
-    to {
-        opacity: 1;
-        transform: translateX(0vw);
-}
-}
+
 
 @media (max-width: 600px) {
     .bio-1, .bio-2{
         margin: 0 auto;
         margin-top: 50vh;
         margin-inline: 5vw;
-        animation-range-start: 35vh;
-        animation-range-end: 80vh;
-        text-align: center;
     }
     
 }

@@ -4,7 +4,7 @@ import Pdf from "../resources/Santeri_Uusitalo_CV.pdf";
 const Roller = () => {
     return(
         <>
-            <h3 className="roller-text"> My info:</h3>
+            <h3 className="roller-text"> More about me:</h3>
             <div className="roller-container">
                 <div className="roller-items">
                     <a href="https://www.linkedin.com/in/santeri-uusitalo">
