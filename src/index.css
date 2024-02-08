@@ -7,7 +7,8 @@
 }
 
 body {
-  background-image: url(resources/bg/338.jpg);
+  background-color: #0d0e0f;
+  background-image: url(resources/bg/338_v2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /*background-attachment*/
