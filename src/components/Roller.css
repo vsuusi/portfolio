@@ -55,8 +55,8 @@
         margin-bottom: 2vh;
         margin-inline: 13vw;
     }
-    .roller-items svg {
-        margin-left: 6vh;
+    .roller-item {
+        margin-left: 15vw;
     }
     
 }

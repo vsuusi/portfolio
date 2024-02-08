@@ -14,7 +14,7 @@
 }
 
 .welcome-arrow {
-    animation: bounce 4s ease-in-out infinite;
+    animation: bounce 3.2s ease-in-out infinite;
     margin: 0 auto;
     width: fit-content;
     margin-top: 20px;
