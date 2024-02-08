@@ -1,5 +1,5 @@
 import "./Photo.css"
-import profile from "../resources/profile/profile_v2.png";
+import profile from "../resources/profile/profile_v5.png";
 import thatsme from "../resources/other/thatsme.svg";
 
 const Photo = () => {

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./Welcome.css";
+import arrow from "../resources/other/arrow.svg";
 
 const Welcome = () => {
     const [part, setPart] = useState('');
@@ -46,7 +47,12 @@ const Welcome = () => {
 
     return (
         <div className="welcome-container">
-            <h1 className="text-hi">{part}</h1>
+            <div className="welcome-text">
+                <h1>{part}</h1>
+            </div>
+            <div className="welcome-arrow">
+                <img className="arrow" src={arrow}/>
+            </div>
         </div>
     );
 };

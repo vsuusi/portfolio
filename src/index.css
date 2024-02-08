@@ -1,12 +1,13 @@
 :root {
-  --main-black: #171b1e;
-  --main-black-opacity70: rgba(23,27,30,0.7);
+  --main-black: #0d0e0f;
+  --main-black-opacity70: rgba(7, 8, 8, 0.7);
+  --main-white: rgb(182, 182, 182);
   /* definee color palette */
   
 }
 
 body {
-  background-image: url(resources/bg/portfoliobg_v6_reduced.png);
+  background-image: url(resources/bg/338.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /*background-attachment*/

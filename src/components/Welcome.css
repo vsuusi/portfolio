@@ -1,16 +1,47 @@
 .welcome-container {
-    text-align: start;
-    margin-top: 8vh;
-    color: white;
-    font-size: 4vh;
-    letter-spacing: 0.15em;
-    width: fit-content;
-    margin-left: 28vw;
-    min-height: 11vh;
+    margin-top: 35vh;
 }
 
+.welcome-text {
+    text-align: start;
+    color: var(--main-white);
+    letter-spacing: 0.15em;
+    width: fit-content;
+
+    min-height: 11vw;
+    font-size: 2vw;
+    margin-left: 26vw;
+}
+
+.welcome-arrow {
+    animation: bounce 4s ease-in-out infinite;
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.arrow {
+    width: 14vh;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-20px);
+        opacity: 20%;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
 @media (max-width: 600px) {
-    .welcome-container{
+    .welcome-text{
         font-size: 2vh;
         margin: 0 auto;
         margin-top: 40vh;
