@@ -1,5 +1,5 @@
 # My Portfolio/personal web page.
 Visit:
-https://santeriuusitalo.onrender.com/
+www.santeriuusitalo.fi
 
 Built with React.
