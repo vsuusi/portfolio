@@ -1,11 +1,7 @@
 .bio-1, .bio-2, .bio-3{
     color:aliceblue;
     font-size: 2.5vh;
-
-    padding: 1px 25px;
     max-width: 50vw;
-    border-radius: 10px;
-    
     margin: 90vh auto 2vh auto;
     text-align: center;
     transition: 0.6s ease-out;
@@ -37,9 +33,10 @@
 
 
 @media (max-width: 600px) {
-    .bio-1, .bio-2{
-        margin-top: 50vh;
+    .bio-1, .bio-2, .bio-3{
         transform: translateY(-8vw);
+        max-width: 90vw;
+        margin: 70vh auto 2vh auto;
     }
     
 }
