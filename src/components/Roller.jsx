@@ -1,11 +1,13 @@
 import "./Roller.css"
 import Pdf from "../resources/Santeri_Uusitalo_CV.pdf";
+import Arrow from "./Arrow";
 
 const Roller = () => {
     return(
         <>
+            <Arrow nextComponent={"top"} flip/>
             <h3 className="roller-text"> More about me:</h3>
-            <div className="roller-container">
+            <div className="roller-container" id="roller">
                 <div className="roller-items">
                     <div className="roller-item">
                         <a href="https://www.linkedin.com/in/santeri-uusitalo">

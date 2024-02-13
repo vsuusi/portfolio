@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./Welcome.css";
-import arrow from "../resources/other/arrow.svg";
+import Arrow from './Arrow';
 
 const Welcome = () => {
     const [part, setPart] = useState('');
@@ -8,8 +8,8 @@ const Welcome = () => {
     const [offset, setOffset] = useState(0);
     const [forwards, setForwards] = useState(true);
     const [skipCount, setSkipCount] = useState(0);
-    const skipDelay = 8;
-    const speed = 80;
+    const skipDelay = 6;
+    const speed = 60;
 
     useEffect(() => {
 
@@ -46,14 +46,16 @@ const Welcome = () => {
     }, [i, offset, forwards, skipCount]);
 
     return (
-        <div className="welcome-container">
-            <div className="welcome-text">
-                <h1>{part}</h1>
+        <>
+            <div className="welcome-container" id="top">
+                <div className="welcome-text">
+                    <h1>{part}</h1>
+                </div>
             </div>
             <div className="welcome-arrow">
-                <img className="arrow" src={arrow}/>
+                <Arrow nextComponent={"bio1"}/> 
             </div>
-        </div>
+        </>
     );
 };
 

@@ -1,0 +1,30 @@
+.welcome-arrow {
+    animation: bounce 2.2s ease-in-out infinite;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.arrow {
+    width: 8vh;
+    transition: 0.5s ease;
+    opacity: 80%;
+}
+
+.arrow.flip {
+    transform: rotate(180deg);
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+
+@keyframes bounce {
+    20%, 50%, 80% {transform: translateY(0);}
+	40% {transform: translateY(-2vh);}
+	70% {transform: translateY(-1vh);}
+    90% {transform: translateY(-0.3vh);}
+}
+
+
