@@ -1,7 +1,8 @@
 .photo-container {
     margin: 0 auto;
     margin-inline: 10vw;
-    margin-top: 40vh;
+    margin-top: 90vh;
+    margin-bottom: 10vh;
     height: 40vh;
     width: 70vw;
     display: flex;
@@ -35,7 +36,7 @@
 
 @keyframes animate-photo {
     to {
-        transform: scale(1.1) rotate(-1deg);
+        transform: scale(1.2) rotate(-1deg);
         opacity: 1;
     }
 }

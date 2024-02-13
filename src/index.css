@@ -2,7 +2,7 @@
   --main-black: #0d0e0f;
   --main-black-opacity70: rgba(7, 8, 8, 0.7);
   --main-white: rgb(182, 182, 182);
-  
+  --main-light-green: rgb(122, 253, 210);
 }
 
 body {
@@ -11,7 +11,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   /*background-attachment*/
-
   cursor: default;
   text-align: center;
   margin: 0;
@@ -24,17 +23,14 @@ body {
 ::-webkit-scrollbar {
   width: 10px;
 }
-
 ::-webkit-scrollbar-track {
   background: var(--main-black-opacity70);
 }
- 
 ::-webkit-scrollbar-thumb {
   background: var(--main-white);
   border-radius: 6px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-  background: #7c7b7b; 
+  background: var(--main-light-green); 
 }
 
