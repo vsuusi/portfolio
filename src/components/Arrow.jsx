@@ -1,4 +1,4 @@
-import arrow from "../resources/other/arrow2.svg";
+import arrow from "../resources/other/arrow3.svg";
 import "./Arrow.css";
 
 const Arrow = ({ nextComponent, flip }) => {
