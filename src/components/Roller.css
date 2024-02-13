@@ -14,7 +14,7 @@
 
 .roller-container {
     margin-bottom: 5vh;
-    margin-inline: 26vw;
+    margin-inline: 36vw;
     margin-top: 2vh;
     padding-block: 10px;
     display: flex;
@@ -25,7 +25,7 @@
 }
 
 .roller-items {
-    animation: scroll 30s linear infinite;
+    animation: scroll 20s linear infinite;
     display: flex;
 }
 
