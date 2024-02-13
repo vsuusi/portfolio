@@ -5,8 +5,11 @@ import Arrow from "./Arrow";
 const Roller = () => {
     return(
         <>
+            <div className="roller-arrow">
             <Arrow nextComponent={"top"} flip/>
-            <h3 className="roller-text"> More about me:</h3>
+
+            </div>
+            <h3 className="roller-text"> My links and resume:</h3>
             <div className="roller-container" id="roller">
                 <div className="roller-items">
                     <div className="roller-item">

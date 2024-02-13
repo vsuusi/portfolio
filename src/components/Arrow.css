@@ -11,10 +11,6 @@
     opacity: 80%;
 }
 
-.arrow.flip {
-    transform: rotate(180deg);
-}
-
 .arrow:hover {
     cursor: pointer;
 }
