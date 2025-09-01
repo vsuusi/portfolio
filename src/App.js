@@ -1,11 +1,13 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import ErrorPage from './pages/ErrorPage';
+import ConstructionPage from './pages/ConstructionPage';
 
 function App() {
 
   const router = createBrowserRouter([
-    {path: "/", element: <MainPage/>, errorElement: <ErrorPage/>}
+    // temporary render constructionPage
+    {path: "/", element: <ConstructionPage/>, errorElement: <ErrorPage/>}
   ])
 
   return (
