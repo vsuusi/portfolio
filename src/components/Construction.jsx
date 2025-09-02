@@ -16,7 +16,7 @@ export default function UnderConstruction() {
         />
 
         <p className="subtitle">
-          I'm working hard to craft something amazing. Stay tuned!
+          I'll be back!
         </p>
 
         <div className="links">
