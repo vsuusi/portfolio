@@ -1,18 +1,23 @@
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import {
+  RouterProvider,
+  createBrowserRouter,
+  Navigate,
+} from 'react-router-dom';
 import MainPage from './pages/MainPage';
-import ErrorPage from './pages/ErrorPage';
 import ConstructionPage from './pages/ConstructionPage';
 
-function App() {
+const IS_DEV_MODE = process.env.REACT_APP_DEV_MODE === 'true';
+const DISPLAY_PAGE = IS_DEV_MODE ? <ConstructionPage /> : <MainPage />;
 
+function App() {
   const router = createBrowserRouter([
-    // temporary render constructionPage
-    {path: "/", element: <ConstructionPage/>, errorElement: <ErrorPage/>}
-  ])
+    { path: '/', element: DISPLAY_PAGE },
+    { path: '*', element: <Navigate to="/" replace /> },
+  ]);
 
   return (
     <div className="App">
-      <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </div>
   );
 }

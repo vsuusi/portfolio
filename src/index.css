@@ -6,15 +6,12 @@
 }
 
 body {
-  background-color: linear-gradient(black);
-  background-image: url(resources/bg/338_v2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
   /*background-attachment*/
   cursor: default;
   text-align: center;
   margin: 0;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -31,6 +28,5 @@ body {
   border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--main-light-green); 
+  background: var(--main-light-green);
 }
-
