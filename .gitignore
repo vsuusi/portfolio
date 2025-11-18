@@ -26,3 +26,4 @@ yarn-error.log*
 /src/setupTests.js
 /App.test.js
 .github/
+toDo.md
