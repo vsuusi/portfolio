@@ -1,22 +1,19 @@
 .welcome-container {
-    margin-top: 43vh;
-    height: 13vh;
-    padding-bottom: 6vh;
+  margin-top: 43vh;
+  height: 13vh;
+  padding-bottom: 6vh;
 }
 
 .welcome-text {
-    text-align: start;
-    color: var(--main-white);
-    letter-spacing: 0.15em;
-    width: fit-content;
-    font-size: 4vh;
-    margin-left: 26vw;
+  color: var(--main-white);
+  letter-spacing: 0.24em;
+  font-size: 3.5vh;
 }
 
 @media (max-width: 600px) {
-    .welcome-text{
-        font-size: 2vh;
-        margin: 0 auto;
-        letter-spacing: 0;
-    }
+  .welcome-text {
+    font-size: 2vh;
+    margin: 0 auto;
+    letter-spacing: 0;
+  }
 }
