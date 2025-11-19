@@ -7,8 +7,9 @@ import MainPage from './pages/MainPage';
 import ConstructionPage from './pages/ConstructionPage';
 import ThreePage from './pages/ThreePage';
 
-const IS_DEV_MODE = process.env.REACT_APP_DEV_MODE === 'true';
-const IS_MAINTENANCE_MODE = process.env.REACT_APP_MAINTENANCE_MODE === 'true';
+// temp local switches to control
+const IS_DEV_MODE = false;
+const IS_MAINTENANCE_MODE = true;
 
 let DISPLAY_PAGE;
 
